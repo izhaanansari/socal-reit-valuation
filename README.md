@@ -1,0 +1,5 @@
+What long-run rent growth is Essex Property Trust's share price betting on, and is that realistic for Southern California and Essex's other West Coast markets?
+Essex is an apartment REIT with a large share of its buildings in Southern California. If its stock price only makes sense with rent growth well above what local markets have delivered, the stock looks expensive. If the implied growth is modest, it looks cheap. You answer it in three parts, each with a different tool:
+1.  What drives REIT valuations? (SQL + R) Across all public REITs, how do valuation multiples (price/FFO, EV/EBITDA, implied cap rate) relate to growth, leverage, size and property type? Do West Coast apartment REITs trade at a premium?
+2.  What is Essex worth? (Excel) A 10-year DCF and a net asset value (NAV) model give a value per share to compare with the market price.
+3.  What growth is priced in, and is it realistic? (Excel + R) A reverse DCF solves for the rent growth that makes your DCF equal today's price. You then compare it with historical and forecast rent growth for Essex's metros (Zillow rent index, plus your OC housing study).
